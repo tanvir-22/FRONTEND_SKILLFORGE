@@ -14,14 +14,9 @@ export function AuthShell({ children }) {
         <div className="pointer-events-none absolute -right-24 -top-24 size-72 rounded-full bg-primary-foreground/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-32 -left-16 size-72 rounded-full bg-accent/20 blur-3xl" />
 
-        <Link href="/" className="relative flex items-center gap-2 text-lg font-semibold">
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary-foreground/15">
-            <GraduationCap className="size-4.5" />
-          </span>
-          SkillForge AI
-        </Link>
+      
 
-        <div className="relative flex flex-col gap-6">
+        <div className="relative my-auto flex flex-col gap-6">
           <h2 className="text-3xl font-semibold leading-tight tracking-tight">
             Learn smarter with an AI that plans your path forward.
           </h2>
